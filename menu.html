@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f1e8">
+  <meta name="description" content="Explore Ellepresso coffee, non-coffee, matcha, and fruit soda flavors.">
+  <title>The menu — Ellepresso</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="index.html" aria-label="Ellepresso home"><span class="wordmark-name">ellepresso</span><span class="wordmark-tagline">coffee on the way</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation"><span class="sr-only">Open navigation</span><span class="menu-toggle-lines" aria-hidden="true"></span></button>
+    <nav class="primary-navigation" id="primary-navigation" aria-label="Main navigation">
+      <a class="nav-link" href="index.html">Home</a><a class="nav-link" href="about.html">Our story</a><a class="nav-link active" aria-current="page" href="menu.html">The menu</a><a class="nav-link" href="visit.html">Visit &amp; connect</a><a class="button button-small" href="visit.html">Say hello <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="menu-hero section-shell">
+      <div><p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span> A flavor for every feeling</p><h1>Meet your <em>next favorite.</em></h1><p class="page-intro">Espresso classics, sweet little twists, and sips for the non-coffee days. Which way are you leaning?</p></div>
+      <figure class="menu-hero-photo"><img src="assets/ellepresso-menu-reference.png" alt="At the counter, Ellepresso's printed menu displays coffee, non-coffee, matcha, and fruit soda drinks"></figure>
+    </section>
+    <nav class="menu-filter section-shell" aria-label="Filter menu categories">
+      <span>Browse by mood</span>
+      <div class="filter-options"><button class="filter-button is-selected" type="button" data-filter="all" aria-pressed="true">All sips</button><button class="filter-button" type="button" data-filter="coffee" aria-pressed="false">Coffee</button><button class="filter-button" type="button" data-filter="non-coffee" aria-pressed="false">Non-coffee</button><button class="filter-button" type="button" data-filter="matcha" aria-pressed="false">Matcha</button><button class="filter-button" type="button" data-filter="fizz" aria-pressed="false">Fruit soda fizz</button></div>
+    </nav>
+    <div class="menu-groups section-shell">
+      <section class="menu-group" id="coffee" data-category="coffee">
+        <div class="menu-group-heading"><div><p class="eyebrow">Bold, cozy, classic-ish</p><h2>Coffee <span>11 flavors</span></h2></div><span class="menu-group-symbol coffee-symbol" aria-hidden="true">01</span></div>
+        <div class="drink-grid">
+          <article class="drink-card"><span class="drink-art drink-biscoff"><img src="assets/drinks/biscoff.jpg" alt="Photo of Ellepresso's Biscoff coffee"></span><div class="drink-info"><h3>Biscoff</h3><p>Sweet cookie comfort with a coffee kick.</p><span class="price">₱119</span></div></article>
+          <article class="drink-card"><span class="drink-art drink-yema"><img src="assets/drinks/yema-dulce.jpg" alt="Photo of Ellepresso's Yema Dulce coffee"></span><div class="drink-info"><h3>Yema Dulce</h3><p>Golden, creamy, and made for slow sips.</p><span class="price">₱99</span></div></article>
+          <article class="drink-card"><span class="drink-art drink-caramel"><img src="assets/drinks/caramel-macchiato.jpg" alt="Photo of Ellepresso's Caramel Macchiato"></span><div class="drink-info"><h3>Caramel Macchiato</h3><p>Espresso, milk, and a caramel finish.</p><span class="price">₱99</span></div></article>
+          <article class="drink-card"><span class="drink-art drink-white-mocha"><img src="assets/drinks/white-mocha-latte.jpg" alt="Photo of Ellepresso's White Mocha Latte"></span><div class="drink-info"><h3>White Mocha Latte</h3><p>Soft white chocolate meets espresso.</p><span class="price">₱99</span></div></article>
+          <article class="drink-card"><span class="drink-art drink-mocha"><img src="assets/drinks/mocha-latte.jpg" alt="Photo of Ellepresso's Mocha Latte"></span><div class="drink-info"><h3>Mocha Latte</h3><p>A chocolatey classic with a coffee heart.</p><span class="price">₱99</span></div></article>
+          <article class="drink-card"><span class="drink-art drink-hazelnut"><img src="assets/drinks/choco-hazelnut.jpg" alt="Photo of Ellepresso's Choco Hazelnut coffee"></span><div class="drink-info"><h3>Choco Hazelnut</h3><p>Rich chocolate and toasted hazelnut notes.</p><span class="price">₱99</span></div></article>
+          <article class="drink-card"><span class="drink-art drink-salted"><img src="assets/drinks/salted-caramel.jpg" alt="Photo of Ellepresso's Salted Caramel coffee"></span><div class="drink-info"><h3>Salted Caramel</h3><p>Sweet caramel with a little salty balance.</p><span class="price">₱99</span></div></article>
+          <article class="drink-card"><span class="drink-art drink-brown-sugar"><img src="assets/drinks/brown-sugar.jpg" alt="Photo of Ellepresso's Brown Sugar coffee"></span><div class="drink-info"><h3>Brown Sugar</h3><p>Toasty sweetness and a smooth finish.</p><span class="price">₱99</span></div></article>
+          <article class="drink-card"><span class="drink-art drink-spanish"><img src="assets/drinks/spanish-latte.jpg" alt="Photo of Ellepresso's Spanish Latte"></span><div class="drink-info"><h3>Spanish Latte</h3><p>Espresso with a sweet, velvety milk twist.</p><span class="price">₱99</span></div></article>
+          <article class="drink-card"><span class="drink-art drink-vanilla"><img src="assets/drinks/french-vanilla.jpg" alt="Photo of Ellepresso's French Vanilla coffee"></span><div class="drink-info"><h3>French Vanilla</h3><p>A smooth vanilla-scented coffee treat.</p><span class="price">₱99</span></div></article>
+          <article class="drink-card"><span class="drink-art drink-americano"><img src="assets/drinks/americano.jpg" alt="Photo of Ellepresso's Americano"></span><div class="drink-info"><h3>Americano</h3><p>Espresso-forward, simple, and satisfying.</p><span class="price">₱80</span></div></article>
+        </div>
+      </section>
+      <section class="menu-group" id="non-coffee" data-category="non-coffee">
+        <div class="menu-group-heading"><div><p class="eyebrow">Sweet, creamy, colorful</p><h2>Non-coffee <span>7 flavors</span></h2></div><span class="menu-group-symbol noncoffee-symbol" aria-hidden="true">02</span></div>
+        <div class="drink-grid">
+          <article class="drink-card"><span class="drink-art drink-oreo"><img src="assets/drinks/milky-way-oreo.jpg" alt="Photo of Ellepresso's Milky Way Oreo"></span><div class="drink-info"><h3>Milky Way Oreo</h3><p>Cookies and cream, with a milky finish.</p><span class="price">₱99</span></div></article>
+          <article class="drink-card"><span class="drink-art drink-strawberry"><img src="assets/drinks/strawberry-magic.jpg" alt="Photo of Ellepresso's Strawberry Magic"></span><div class="drink-info"><h3>Strawberry Magic</h3><p>Berry-bright, creamy, and a little dreamy.</p><span class="price">₱99</span></div></article>
+          <article class="drink-card"><span class="drink-art drink-biscoff"><img src="assets/drinks/biscoff-milk.jpg" alt="Photo of Ellepresso's Biscoff Milk"></span><div class="drink-info"><h3>Biscoff Milk</h3><p>Cookie butter sweetness in a creamy sip.</p><span class="price">₱119</span></div></article>
+          <article class="drink-card"><span class="drink-art drink-ube"><img src="assets/drinks/uberry.jpg" alt="Photo of Ellepresso's Uberry"></span><div class="drink-info"><h3>Uberry</h3><p>A playful berry-colored, creamy treat.</p><span class="price">₱99</span></div></article>
+          <article class="drink-card"><span class="drink-art drink-ube"><img src="assets/drinks/ube-latte.jpg" alt="Photo of Ellepresso's Ube Latte"></span><div class="drink-info"><h3>Ube Latte</h3><p>Sweet ube color with a latte-style finish.</p><span class="price">₱99</span></div></article>
+          <article class="drink-card"><span class="drink-art drink-chocolate"><img src="assets/drinks/ultimate-chocolate.jpg" alt="Photo of Ellepresso's Ultimate Chocolate"></span><div class="drink-info"><h3>Ultimate Chocolate</h3><p>A rich, chocolate-first kind of day.</p><span class="price">₱99</span></div></article>
+          <article class="drink-card"><span class="drink-art drink-choco-berry"><img src="assets/drinks/choco-berry.jpg" alt="Photo of Ellepresso's Choco-Berry"></span><div class="drink-info"><h3>Choco-Berry</h3><p>Chocolate meets a bright berry swirl.</p><span class="price">₱99</span></div></article>
+        </div>
+      </section>
+      <section class="menu-group" id="matcha" data-category="matcha">
+        <div class="menu-group-heading"><div><p class="eyebrow">Fresh green, new mood</p><h2>Matcha <span>6 flavors</span></h2></div><span class="menu-group-symbol matcha-symbol" aria-hidden="true">03</span></div>
+        <div class="drink-grid">
+          <article class="drink-card"><span class="drink-art drink-dirty-matcha"><img src="assets/drinks/dirty-matcha.jpg" alt="Photo of Ellepresso's Dirty Matcha"></span><div class="drink-info"><h3>Dirty Matcha</h3><p>Matcha and coffee, layered together.</p><span class="price">₱99</span></div></article>
+          <article class="drink-card"><span class="drink-art drink-matcha"><img src="assets/drinks/matcha-latte.jpg" alt="Photo of Ellepresso's Matcha Latte"></span><div class="drink-info"><h3>Matcha Latte</h3><p>Earthy green matcha with creamy milk.</p><span class="price">₱99</span></div></article>
+          <article class="drink-card"><span class="drink-art drink-matcha-berry"><img src="assets/drinks/matcha-berry.jpg" alt="Photo of Ellepresso's Matcha-Berry"></span><div class="drink-info"><h3>Matcha-Berry</h3><p>Green matcha meets a pop of berry.</p><span class="price">₱99</span></div></article>
+          <article class="drink-card"><span class="drink-art drink-choco-matcha"><img src="assets/drinks/choco-matcha.jpg" alt="Photo of Ellepresso's Choco-Matcha"></span><div class="drink-info"><h3>Choco-Matcha</h3><p>A sweet cocoa note with fresh matcha.</p><span class="price">₱99</span></div></article>
+          <article class="drink-card"><span class="drink-art drink-oreo-matcha"><img src="assets/drinks/oreo-matcha.jpg" alt="Photo of Ellepresso's Oreo-Matcha"></span><div class="drink-info"><h3>Oreo-Matcha</h3><p>Cookie crunch in a creamy green sip.</p><span class="price">₱119</span></div></article>
+          <article class="drink-card"><span class="drink-art drink-biscoff-matcha"><img src="assets/drinks/biscoff-matcha.jpg" alt="Photo of Ellepresso's Biscoff-Matcha"></span><div class="drink-info"><h3>Biscoff-Matcha</h3><p>Cookie-butter warmth meets earthy matcha.</p><span class="price">₱119</span></div></article>
+        </div>
+      </section>
+      <section class="menu-group fizz-group" id="fizz" data-category="fizz">
+        <div class="fizz-copy"><p class="eyebrow">A bright little detour</p><h2>Fruit soda <em>fizz.</em></h2><p>Feeling something bubbly? Pick up a fruit soda fizz for just <strong>₱69</strong>.</p><span class="fizz-flavors">Flavor options vary · ask us what’s pouring today.</span></div>
+        <span class="fizz-art" aria-hidden="true"><i></i><b></b><em></em></span>
+      </section>
+    </div>
+    <section class="menu-note">        <div><p class="eyebrow">The little details</p><h2>Made your way.</h2><p>Drink photos are cropped from the Ellepresso product photo you provided. Menu names and prices are based on your menu reference; availability and customizations may vary, so please confirm at the counter.</p></div><a class="button button-outline" href="visit.html">Visit &amp; connect <span aria-hidden="true">↗</span></a></section>
+  </main>
+  <footer class="site-footer"><a class="wordmark footer-wordmark" href="index.html"><span class="wordmark-name">ellepresso</span><span class="wordmark-tagline">coffee on the way</span></a><p>Good sips. Good days. Wherever you’re headed.</p><nav aria-label="Footer navigation"><a href="about.html">Our story</a><a href="menu.html">The menu</a><a href="visit.html">Visit &amp; connect</a></nav><small>© Ellepresso · Made for the way</small></footer>
+</body>
+</html>
